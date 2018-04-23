@@ -25,6 +25,8 @@ X = hotencoder.fit_transform(X).toarray()
 labelencoder_y = LabelEncoder()
 y = labelencoder_y.fit_transform(y)
 
+# Just added a comment here
+
 # Splitting the dataset into the Training set and Test set
 from sklearn.cross_validation import train_test_split
 from sklearn.cross_validation import train_test_split
